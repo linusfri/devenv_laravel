@@ -1,0 +1,7 @@
+.timmy-style {
+    padding: 48px;
+
+    &:hover {
+        background-color: red;
+    }
+}
