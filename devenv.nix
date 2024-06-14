@@ -18,6 +18,7 @@ let
 
   devDeps = buildDeps // {
     inherit (pkgs) wp-cli;
+    inherit (pkgs) gh;
     inherit (php.extensions) mysqli pdo pdo_mysql;
   };
 
